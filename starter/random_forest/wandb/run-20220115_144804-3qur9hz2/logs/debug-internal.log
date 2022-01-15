@@ -1,0 +1,175 @@
+2022-01-15 14:48:04,762 INFO    MainThread:156583 [internal.py:wandb_internal():87] W&B internal server running at pid: 156583, started at: 2022-01-15 14:48:04.762651
+2022-01-15 14:48:04,764 DEBUG   HandlerThread:156583 [handler.py:handle_request():130] handle_request: check_version
+2022-01-15 14:48:04,764 INFO    WriterThread:156583 [datastore.py:open_for_write():77] open: /home/marc/development/python/udacity_course/genre_classification/starter/random_forest/wandb/run-20220115_144804-3qur9hz2/run-3qur9hz2.wandb
+2022-01-15 14:48:04,765 DEBUG   SenderThread:156583 [sender.py:send():234] send: header
+2022-01-15 14:48:04,765 DEBUG   SenderThread:156583 [sender.py:send_request():248] send_request: check_version
+2022-01-15 14:48:04,816 DEBUG   SenderThread:156583 [sender.py:send():234] send: run
+2022-01-15 14:48:05,084 INFO    SenderThread:156583 [dir_watcher.py:__init__():169] watching files in: /home/marc/development/python/udacity_course/genre_classification/starter/random_forest/wandb/run-20220115_144804-3qur9hz2/files
+2022-01-15 14:48:05,084 INFO    SenderThread:156583 [sender.py:_start_run_threads():804] run started: 3qur9hz2 with start time 1642258084
+2022-01-15 14:48:05,088 DEBUG   SenderThread:156583 [sender.py:send():234] send: summary
+2022-01-15 14:48:05,088 INFO    SenderThread:156583 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-01-15 14:48:05,088 DEBUG   HandlerThread:156583 [handler.py:handle_request():130] handle_request: run_start
+2022-01-15 14:48:05,089 DEBUG   HandlerThread:156583 [meta.py:__init__():40] meta init
+2022-01-15 14:48:05,089 DEBUG   HandlerThread:156583 [meta.py:__init__():54] meta init done
+2022-01-15 14:48:05,089 DEBUG   HandlerThread:156583 [meta.py:probe():214] probe
+2022-01-15 14:48:05,090 DEBUG   HandlerThread:156583 [meta.py:_setup_git():204] setup git
+2022-01-15 14:48:05,101 DEBUG   HandlerThread:156583 [meta.py:_setup_git():211] setup git done
+2022-01-15 14:48:05,101 DEBUG   HandlerThread:156583 [meta.py:_save_pip():58] save pip
+2022-01-15 14:48:05,101 DEBUG   HandlerThread:156583 [meta.py:_save_pip():72] save pip done
+2022-01-15 14:48:05,101 DEBUG   HandlerThread:156583 [meta.py:_save_conda():79] save conda
+2022-01-15 14:48:05,807 DEBUG   HandlerThread:156583 [meta.py:_save_conda():89] save conda done
+2022-01-15 14:48:05,807 DEBUG   HandlerThread:156583 [meta.py:probe():252] probe done
+2022-01-15 14:48:05,809 DEBUG   SenderThread:156583 [sender.py:send():234] send: files
+2022-01-15 14:48:05,809 INFO    SenderThread:156583 [sender.py:_save_file():939] saving file wandb-metadata.json with policy now
+2022-01-15 14:48:05,812 DEBUG   HandlerThread:156583 [handler.py:handle_request():130] handle_request: stop_status
+2022-01-15 14:48:05,812 DEBUG   SenderThread:156583 [sender.py:send_request():248] send_request: stop_status
+2022-01-15 14:48:06,087 INFO    Thread-8  :156583 [dir_watcher.py:_on_file_created():217] file/dir created: /home/marc/development/python/udacity_course/genre_classification/starter/random_forest/wandb/run-20220115_144804-3qur9hz2/files/requirements.txt
+2022-01-15 14:48:06,088 INFO    Thread-8  :156583 [dir_watcher.py:_on_file_created():217] file/dir created: /home/marc/development/python/udacity_course/genre_classification/starter/random_forest/wandb/run-20220115_144804-3qur9hz2/files/conda-environment.yaml
+2022-01-15 14:48:06,088 INFO    Thread-8  :156583 [dir_watcher.py:_on_file_created():217] file/dir created: /home/marc/development/python/udacity_course/genre_classification/starter/random_forest/wandb/run-20220115_144804-3qur9hz2/files/wandb-summary.json
+2022-01-15 14:48:06,088 INFO    Thread-8  :156583 [dir_watcher.py:_on_file_created():217] file/dir created: /home/marc/development/python/udacity_course/genre_classification/starter/random_forest/wandb/run-20220115_144804-3qur9hz2/files/output.log
+2022-01-15 14:48:06,088 INFO    Thread-8  :156583 [dir_watcher.py:_on_file_created():217] file/dir created: /home/marc/development/python/udacity_course/genre_classification/starter/random_forest/wandb/run-20220115_144804-3qur9hz2/files/wandb-metadata.json
+2022-01-15 14:48:06,326 INFO    Thread-11 :156583 [upload_job.py:push():137] Uploaded file /run/user/1000/tmpqb4du7idwandb/waae3f1k-wandb-metadata.json
+2022-01-15 14:48:06,943 DEBUG   SenderThread:156583 [sender.py:send():234] send: config
+2022-01-15 14:48:08,085 INFO    Thread-8  :156583 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/marc/development/python/udacity_course/genre_classification/starter/random_forest/wandb/run-20220115_144804-3qur9hz2/files/output.log
+2022-01-15 14:48:09,508 DEBUG   SenderThread:156583 [sender.py:send():234] send: summary
+2022-01-15 14:48:09,508 INFO    SenderThread:156583 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-01-15 14:48:09,795 DEBUG   HandlerThread:156583 [handler.py:handle_request():130] handle_request: log_artifact
+2022-01-15 14:48:09,795 DEBUG   SenderThread:156583 [sender.py:send_request():248] send_request: log_artifact
+2022-01-15 14:48:10,086 INFO    Thread-8  :156583 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/marc/development/python/udacity_course/genre_classification/starter/random_forest/wandb/run-20220115_144804-3qur9hz2/files/wandb-summary.json
+2022-01-15 14:48:11,024 INFO    Thread-15 :156583 [upload_job.py:push():92] Skipped uploading /home/marc/.cache/wandb/artifacts/obj/md5/99/0b827317c239cce1734f4caa28ec12
+2022-01-15 14:48:11,025 INFO    Thread-14 :156583 [upload_job.py:push():92] Skipped uploading /home/marc/.cache/wandb/artifacts/obj/md5/e8/d5c774f2cd792f9d3a353aa1ef62bc
+2022-01-15 14:48:11,303 INFO    Thread-13 :156583 [upload_job.py:push():95] Uploaded file /home/marc/.cache/wandb/artifacts/obj/md5/66/1d5df77dadf6e635b071692d6c7153
+2022-01-15 14:48:12,087 INFO    Thread-8  :156583 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/marc/development/python/udacity_course/genre_classification/starter/random_forest/wandb/run-20220115_144804-3qur9hz2/files/output.log
+2022-01-15 14:48:19,625 INFO    Thread-16 :156583 [upload_job.py:push():95] Uploaded file /home/marc/.cache/wandb/artifacts/obj/md5/ad/6bed15287a92d68ad8e3fa1c0328eb
+2022-01-15 14:48:20,649 INFO    SenderThread:156583 [sender.py:send_request_log_artifact():968] logged artifact model_export - {'id': 'QXJ0aWZhY3Q6NjM4NDYwNTA=', 'digest': 'b4a68f20a060792bfd87bf82cdf8db9b', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjk0MzIwODY=', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NjM4NDIyODk=', 'versionIndex': 2}}, 'version': 'latest'}
+2022-01-15 14:48:21,014 DEBUG   HandlerThread:156583 [handler.py:handle_request():130] handle_request: stop_status
+2022-01-15 14:48:21,014 DEBUG   SenderThread:156583 [sender.py:send_request():248] send_request: stop_status
+2022-01-15 14:48:21,761 DEBUG   SenderThread:156583 [sender.py:send():234] send: files
+2022-01-15 14:48:21,761 INFO    SenderThread:156583 [sender.py:_save_file():939] saving file media/images/feature_importance_0_f1fd3194294f7a484f72.png with policy now
+2022-01-15 14:48:21,764 DEBUG   SenderThread:156583 [sender.py:send():234] send: files
+2022-01-15 14:48:21,764 INFO    SenderThread:156583 [sender.py:_save_file():939] saving file media/images/confusion_matrix_0_f02dfbea4d35c8b2f32b.png with policy now
+2022-01-15 14:48:21,764 DEBUG   SenderThread:156583 [sender.py:send():234] send: history
+2022-01-15 14:48:21,764 DEBUG   SenderThread:156583 [sender.py:send():234] send: summary
+2022-01-15 14:48:21,765 INFO    SenderThread:156583 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-01-15 14:48:22,092 INFO    Thread-8  :156583 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/marc/development/python/udacity_course/genre_classification/starter/random_forest/wandb/run-20220115_144804-3qur9hz2/files/wandb-summary.json
+2022-01-15 14:48:22,092 INFO    Thread-8  :156583 [dir_watcher.py:_on_file_created():217] file/dir created: /home/marc/development/python/udacity_course/genre_classification/starter/random_forest/wandb/run-20220115_144804-3qur9hz2/files/media/images/feature_importance_0_f1fd3194294f7a484f72.png
+2022-01-15 14:48:22,092 INFO    Thread-8  :156583 [dir_watcher.py:_on_file_created():217] file/dir created: /home/marc/development/python/udacity_course/genre_classification/starter/random_forest/wandb/run-20220115_144804-3qur9hz2/files/media/images/confusion_matrix_0_f02dfbea4d35c8b2f32b.png
+2022-01-15 14:48:22,093 INFO    Thread-8  :156583 [dir_watcher.py:_on_file_created():217] file/dir created: /home/marc/development/python/udacity_course/genre_classification/starter/random_forest/wandb/run-20220115_144804-3qur9hz2/files/media
+2022-01-15 14:48:22,093 INFO    Thread-8  :156583 [dir_watcher.py:_on_file_created():217] file/dir created: /home/marc/development/python/udacity_course/genre_classification/starter/random_forest/wandb/run-20220115_144804-3qur9hz2/files/media/images
+2022-01-15 14:48:22,285 INFO    Thread-17 :156583 [upload_job.py:push():137] Uploaded file /run/user/1000/tmpqb4du7idwandb/p7a4la0k-media/images/feature_importance_0_f1fd3194294f7a484f72.png
+2022-01-15 14:48:22,294 INFO    Thread-18 :156583 [upload_job.py:push():137] Uploaded file /run/user/1000/tmpqb4du7idwandb/1y84fjbj-media/images/confusion_matrix_0_f02dfbea4d35c8b2f32b.png
+2022-01-15 14:48:23,845 DEBUG   HandlerThread:156583 [handler.py:handle_request():130] handle_request: poll_exit
+2022-01-15 14:48:23,845 DEBUG   SenderThread:156583 [sender.py:send():234] send: telemetry
+2022-01-15 14:48:23,846 DEBUG   SenderThread:156583 [sender.py:send():234] send: exit
+2022-01-15 14:48:23,846 INFO    SenderThread:156583 [sender.py:send_exit():366] handling exit code: 0
+2022-01-15 14:48:23,846 INFO    SenderThread:156583 [sender.py:send_exit():368] handling runtime: 18
+2022-01-15 14:48:23,851 INFO    SenderThread:156583 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-01-15 14:48:23,851 INFO    SenderThread:156583 [sender.py:send_exit():374] send defer
+2022-01-15 14:48:23,851 DEBUG   SenderThread:156583 [sender.py:send_request():248] send_request: poll_exit
+2022-01-15 14:48:23,852 DEBUG   HandlerThread:156583 [handler.py:handle_request():130] handle_request: defer
+2022-01-15 14:48:23,852 INFO    HandlerThread:156583 [handler.py:handle_request_defer():147] handle defer: 0
+2022-01-15 14:48:23,852 DEBUG   SenderThread:156583 [sender.py:send_request():248] send_request: defer
+2022-01-15 14:48:23,852 INFO    SenderThread:156583 [sender.py:send_request_defer():383] handle sender defer: 0
+2022-01-15 14:48:23,853 INFO    SenderThread:156583 [sender.py:transition_state():387] send defer: 1
+2022-01-15 14:48:23,853 DEBUG   HandlerThread:156583 [handler.py:handle_request():130] handle_request: defer
+2022-01-15 14:48:23,853 INFO    HandlerThread:156583 [handler.py:handle_request_defer():147] handle defer: 1
+2022-01-15 14:48:23,939 DEBUG   SenderThread:156583 [sender.py:send_request():248] send_request: defer
+2022-01-15 14:48:23,940 INFO    SenderThread:156583 [sender.py:send_request_defer():383] handle sender defer: 1
+2022-01-15 14:48:23,940 INFO    SenderThread:156583 [sender.py:transition_state():387] send defer: 2
+2022-01-15 14:48:23,940 DEBUG   SenderThread:156583 [sender.py:send():234] send: stats
+2022-01-15 14:48:23,941 DEBUG   HandlerThread:156583 [handler.py:handle_request():130] handle_request: defer
+2022-01-15 14:48:23,941 INFO    HandlerThread:156583 [handler.py:handle_request_defer():147] handle defer: 2
+2022-01-15 14:48:23,941 DEBUG   SenderThread:156583 [sender.py:send_request():248] send_request: defer
+2022-01-15 14:48:23,941 INFO    SenderThread:156583 [sender.py:send_request_defer():383] handle sender defer: 2
+2022-01-15 14:48:23,941 INFO    SenderThread:156583 [sender.py:transition_state():387] send defer: 3
+2022-01-15 14:48:23,942 DEBUG   HandlerThread:156583 [handler.py:handle_request():130] handle_request: defer
+2022-01-15 14:48:23,942 INFO    HandlerThread:156583 [handler.py:handle_request_defer():147] handle defer: 3
+2022-01-15 14:48:23,942 DEBUG   SenderThread:156583 [sender.py:send():234] send: summary
+2022-01-15 14:48:23,943 INFO    SenderThread:156583 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-01-15 14:48:23,943 DEBUG   SenderThread:156583 [sender.py:send_request():248] send_request: defer
+2022-01-15 14:48:23,943 INFO    SenderThread:156583 [sender.py:send_request_defer():383] handle sender defer: 3
+2022-01-15 14:48:23,943 INFO    SenderThread:156583 [sender.py:transition_state():387] send defer: 4
+2022-01-15 14:48:23,944 DEBUG   HandlerThread:156583 [handler.py:handle_request():130] handle_request: defer
+2022-01-15 14:48:23,944 INFO    HandlerThread:156583 [handler.py:handle_request_defer():147] handle defer: 4
+2022-01-15 14:48:23,944 DEBUG   SenderThread:156583 [sender.py:send_request():248] send_request: defer
+2022-01-15 14:48:23,944 INFO    SenderThread:156583 [sender.py:send_request_defer():383] handle sender defer: 4
+2022-01-15 14:48:23,954 DEBUG   HandlerThread:156583 [handler.py:handle_request():130] handle_request: poll_exit
+2022-01-15 14:48:24,093 INFO    Thread-8  :156583 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/marc/development/python/udacity_course/genre_classification/starter/random_forest/wandb/run-20220115_144804-3qur9hz2/files/wandb-summary.json
+2022-01-15 14:48:24,094 INFO    Thread-8  :156583 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/marc/development/python/udacity_course/genre_classification/starter/random_forest/wandb/run-20220115_144804-3qur9hz2/files/output.log
+2022-01-15 14:48:24,129 INFO    SenderThread:156583 [sender.py:transition_state():387] send defer: 5
+2022-01-15 14:48:24,130 DEBUG   SenderThread:156583 [sender.py:send_request():248] send_request: poll_exit
+2022-01-15 14:48:24,130 DEBUG   HandlerThread:156583 [handler.py:handle_request():130] handle_request: defer
+2022-01-15 14:48:24,131 INFO    HandlerThread:156583 [handler.py:handle_request_defer():147] handle defer: 5
+2022-01-15 14:48:24,131 DEBUG   SenderThread:156583 [sender.py:send_request():248] send_request: defer
+2022-01-15 14:48:24,131 INFO    SenderThread:156583 [sender.py:send_request_defer():383] handle sender defer: 5
+2022-01-15 14:48:24,131 INFO    SenderThread:156583 [dir_watcher.py:finish():283] shutting down directory watcher
+2022-01-15 14:48:24,233 DEBUG   HandlerThread:156583 [handler.py:handle_request():130] handle_request: poll_exit
+2022-01-15 14:48:25,094 INFO    Thread-8  :156583 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/marc/development/python/udacity_course/genre_classification/starter/random_forest/wandb/run-20220115_144804-3qur9hz2/files/config.yaml
+2022-01-15 14:48:25,095 INFO    SenderThread:156583 [dir_watcher.py:finish():313] scan: /home/marc/development/python/udacity_course/genre_classification/starter/random_forest/wandb/run-20220115_144804-3qur9hz2/files
+2022-01-15 14:48:25,095 INFO    SenderThread:156583 [dir_watcher.py:finish():327] scan save: /home/marc/development/python/udacity_course/genre_classification/starter/random_forest/wandb/run-20220115_144804-3qur9hz2/files/config.yaml config.yaml
+2022-01-15 14:48:25,096 INFO    SenderThread:156583 [dir_watcher.py:finish():327] scan save: /home/marc/development/python/udacity_course/genre_classification/starter/random_forest/wandb/run-20220115_144804-3qur9hz2/files/conda-environment.yaml conda-environment.yaml
+2022-01-15 14:48:25,096 INFO    SenderThread:156583 [dir_watcher.py:finish():327] scan save: /home/marc/development/python/udacity_course/genre_classification/starter/random_forest/wandb/run-20220115_144804-3qur9hz2/files/output.log output.log
+2022-01-15 14:48:25,103 INFO    SenderThread:156583 [dir_watcher.py:finish():327] scan save: /home/marc/development/python/udacity_course/genre_classification/starter/random_forest/wandb/run-20220115_144804-3qur9hz2/files/wandb-summary.json wandb-summary.json
+2022-01-15 14:48:25,109 INFO    SenderThread:156583 [dir_watcher.py:finish():327] scan save: /home/marc/development/python/udacity_course/genre_classification/starter/random_forest/wandb/run-20220115_144804-3qur9hz2/files/requirements.txt requirements.txt
+2022-01-15 14:48:25,120 INFO    SenderThread:156583 [dir_watcher.py:finish():327] scan save: /home/marc/development/python/udacity_course/genre_classification/starter/random_forest/wandb/run-20220115_144804-3qur9hz2/files/wandb-metadata.json wandb-metadata.json
+2022-01-15 14:48:25,126 INFO    SenderThread:156583 [dir_watcher.py:finish():327] scan save: /home/marc/development/python/udacity_course/genre_classification/starter/random_forest/wandb/run-20220115_144804-3qur9hz2/files/media/images/feature_importance_0_f1fd3194294f7a484f72.png media/images/feature_importance_0_f1fd3194294f7a484f72.png
+2022-01-15 14:48:25,126 INFO    SenderThread:156583 [dir_watcher.py:finish():327] scan save: /home/marc/development/python/udacity_course/genre_classification/starter/random_forest/wandb/run-20220115_144804-3qur9hz2/files/media/images/confusion_matrix_0_f02dfbea4d35c8b2f32b.png media/images/confusion_matrix_0_f02dfbea4d35c8b2f32b.png
+2022-01-15 14:48:25,127 INFO    SenderThread:156583 [sender.py:transition_state():387] send defer: 6
+2022-01-15 14:48:25,127 DEBUG   SenderThread:156583 [sender.py:send_request():248] send_request: poll_exit
+2022-01-15 14:48:25,128 DEBUG   HandlerThread:156583 [handler.py:handle_request():130] handle_request: defer
+2022-01-15 14:48:25,128 INFO    HandlerThread:156583 [handler.py:handle_request_defer():147] handle defer: 6
+2022-01-15 14:48:25,128 DEBUG   SenderThread:156583 [sender.py:send_request():248] send_request: defer
+2022-01-15 14:48:25,129 INFO    SenderThread:156583 [sender.py:send_request_defer():383] handle sender defer: 6
+2022-01-15 14:48:25,129 INFO    SenderThread:156583 [file_pusher.py:finish():177] shutting down file pusher
+2022-01-15 14:48:25,230 DEBUG   HandlerThread:156583 [handler.py:handle_request():130] handle_request: poll_exit
+2022-01-15 14:48:25,231 DEBUG   SenderThread:156583 [sender.py:send_request():248] send_request: poll_exit
+2022-01-15 14:48:25,334 DEBUG   HandlerThread:156583 [handler.py:handle_request():130] handle_request: poll_exit
+2022-01-15 14:48:25,334 DEBUG   SenderThread:156583 [sender.py:send_request():248] send_request: poll_exit
+2022-01-15 14:48:25,437 DEBUG   HandlerThread:156583 [handler.py:handle_request():130] handle_request: poll_exit
+2022-01-15 14:48:25,437 DEBUG   SenderThread:156583 [sender.py:send_request():248] send_request: poll_exit
+2022-01-15 14:48:25,540 DEBUG   HandlerThread:156583 [handler.py:handle_request():130] handle_request: poll_exit
+2022-01-15 14:48:25,541 DEBUG   SenderThread:156583 [sender.py:send_request():248] send_request: poll_exit
+2022-01-15 14:48:25,644 DEBUG   HandlerThread:156583 [handler.py:handle_request():130] handle_request: poll_exit
+2022-01-15 14:48:25,644 DEBUG   SenderThread:156583 [sender.py:send_request():248] send_request: poll_exit
+2022-01-15 14:48:25,747 DEBUG   HandlerThread:156583 [handler.py:handle_request():130] handle_request: poll_exit
+2022-01-15 14:48:25,748 DEBUG   SenderThread:156583 [sender.py:send_request():248] send_request: poll_exit
+2022-01-15 14:48:25,774 INFO    Thread-19 :156583 [upload_job.py:push():137] Uploaded file /home/marc/development/python/udacity_course/genre_classification/starter/random_forest/wandb/run-20220115_144804-3qur9hz2/files/config.yaml
+2022-01-15 14:48:25,776 INFO    Thread-23 :156583 [upload_job.py:push():137] Uploaded file /home/marc/development/python/udacity_course/genre_classification/starter/random_forest/wandb/run-20220115_144804-3qur9hz2/files/requirements.txt
+2022-01-15 14:48:25,777 INFO    Thread-21 :156583 [upload_job.py:push():137] Uploaded file /home/marc/development/python/udacity_course/genre_classification/starter/random_forest/wandb/run-20220115_144804-3qur9hz2/files/output.log
+2022-01-15 14:48:25,778 INFO    Thread-20 :156583 [upload_job.py:push():137] Uploaded file /home/marc/development/python/udacity_course/genre_classification/starter/random_forest/wandb/run-20220115_144804-3qur9hz2/files/conda-environment.yaml
+2022-01-15 14:48:25,780 INFO    Thread-22 :156583 [upload_job.py:push():137] Uploaded file /home/marc/development/python/udacity_course/genre_classification/starter/random_forest/wandb/run-20220115_144804-3qur9hz2/files/wandb-summary.json
+2022-01-15 14:48:25,851 DEBUG   HandlerThread:156583 [handler.py:handle_request():130] handle_request: poll_exit
+2022-01-15 14:48:25,851 DEBUG   SenderThread:156583 [sender.py:send_request():248] send_request: poll_exit
+2022-01-15 14:48:25,954 DEBUG   HandlerThread:156583 [handler.py:handle_request():130] handle_request: poll_exit
+2022-01-15 14:48:25,954 DEBUG   SenderThread:156583 [sender.py:send_request():248] send_request: poll_exit
+2022-01-15 14:48:25,983 INFO    Thread-7  :156583 [sender.py:transition_state():387] send defer: 7
+2022-01-15 14:48:25,984 DEBUG   HandlerThread:156583 [handler.py:handle_request():130] handle_request: defer
+2022-01-15 14:48:25,984 INFO    HandlerThread:156583 [handler.py:handle_request_defer():147] handle defer: 7
+2022-01-15 14:48:25,984 DEBUG   SenderThread:156583 [sender.py:send_request():248] send_request: defer
+2022-01-15 14:48:25,984 INFO    SenderThread:156583 [sender.py:send_request_defer():383] handle sender defer: 7
+2022-01-15 14:48:26,057 DEBUG   HandlerThread:156583 [handler.py:handle_request():130] handle_request: poll_exit
+2022-01-15 14:48:26,482 INFO    SenderThread:156583 [sender.py:transition_state():387] send defer: 8
+2022-01-15 14:48:26,483 DEBUG   SenderThread:156583 [sender.py:send_request():248] send_request: poll_exit
+2022-01-15 14:48:26,484 DEBUG   HandlerThread:156583 [handler.py:handle_request():130] handle_request: defer
+2022-01-15 14:48:26,484 INFO    HandlerThread:156583 [handler.py:handle_request_defer():147] handle defer: 8
+2022-01-15 14:48:26,485 DEBUG   SenderThread:156583 [sender.py:send_request():248] send_request: defer
+2022-01-15 14:48:26,485 INFO    SenderThread:156583 [sender.py:send_request_defer():383] handle sender defer: 8
+2022-01-15 14:48:26,485 INFO    SenderThread:156583 [sender.py:transition_state():387] send defer: 9
+2022-01-15 14:48:26,486 DEBUG   SenderThread:156583 [sender.py:send():234] send: final
+2022-01-15 14:48:26,487 DEBUG   SenderThread:156583 [sender.py:send():234] send: footer
+2022-01-15 14:48:26,487 DEBUG   HandlerThread:156583 [handler.py:handle_request():130] handle_request: defer
+2022-01-15 14:48:26,487 INFO    HandlerThread:156583 [handler.py:handle_request_defer():147] handle defer: 9
+2022-01-15 14:48:26,487 DEBUG   SenderThread:156583 [sender.py:send_request():248] send_request: defer
+2022-01-15 14:48:26,488 INFO    SenderThread:156583 [sender.py:send_request_defer():383] handle sender defer: 9
+2022-01-15 14:48:26,587 DEBUG   HandlerThread:156583 [handler.py:handle_request():130] handle_request: poll_exit
+2022-01-15 14:48:26,587 DEBUG   SenderThread:156583 [sender.py:send_request():248] send_request: poll_exit
+2022-01-15 14:48:26,588 INFO    SenderThread:156583 [file_pusher.py:join():182] waiting for file pusher
+2022-01-15 14:48:26,797 DEBUG   HandlerThread:156583 [handler.py:handle_request():130] handle_request: get_summary
+2022-01-15 14:48:26,798 DEBUG   HandlerThread:156583 [handler.py:handle_request():130] handle_request: sampled_history
+2022-01-15 14:48:26,800 DEBUG   HandlerThread:156583 [handler.py:handle_request():130] handle_request: shutdown
+2022-01-15 14:48:26,800 INFO    HandlerThread:156583 [handler.py:finish():731] shutting down handler
+2022-01-15 14:48:27,487 INFO    WriterThread:156583 [datastore.py:close():281] close: /home/marc/development/python/udacity_course/genre_classification/starter/random_forest/wandb/run-20220115_144804-3qur9hz2/run-3qur9hz2.wandb
+2022-01-15 14:48:27,794 INFO    SenderThread:156583 [sender.py:finish():1070] shutting down sender
+2022-01-15 14:48:27,794 INFO    SenderThread:156583 [file_pusher.py:finish():177] shutting down file pusher
+2022-01-15 14:48:27,795 INFO    SenderThread:156583 [file_pusher.py:join():182] waiting for file pusher
+2022-01-15 14:48:27,796 INFO    MainThread:156583 [internal.py:handle_exit():77] Internal process exited

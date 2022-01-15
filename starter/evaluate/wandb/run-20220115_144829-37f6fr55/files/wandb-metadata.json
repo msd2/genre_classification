@@ -1,0 +1,27 @@
+{
+    "os": "Linux-5.10.79-x86_64-with-glibc2.10",
+    "python": "3.8.12",
+    "heartbeatAt": "2022-01-15T14:48:30.150723",
+    "startedAt": "2022-01-15T14:48:29.561492",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "--model_export",
+        "model_export:latest",
+        "--test_data",
+        "data_test.csv:latest"
+    ],
+    "state": "running",
+    "program": "run.py",
+    "codePath": "starter/evaluate/run.py",
+    "git": {
+        "remote": "git@github.com:msd2/genre_classification.git",
+        "commit": "917c58e6e45921c6337a8652131df1bc6ba2cf59"
+    },
+    "email": "marc.dunford@gmail.com",
+    "root": "/home/marc/development/python/udacity_course/genre_classification",
+    "host": "nixos",
+    "username": "marc",
+    "executable": "/home/marc/.conda/envs/mlflow-cc3b718026d40601007d2fd365c8081ca29c0d0d/bin/python"
+}

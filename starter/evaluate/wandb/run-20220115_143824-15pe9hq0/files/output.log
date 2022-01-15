@@ -1,0 +1,54 @@
+2022-01-15 14:38:25,543 Downloading and reading test artifact
+2022-01-15 14:38:26,552 Extracting target from dataframe
+2022-01-15 14:38:26,552 Downloading and reading the exported model
+[34m[1mwandb[39m[22m: [32m[41mERROR[39m[49m Attempted to fetch artifact without alias (e.g. "<artifact_name>:v3" or "<artifact_name>:latest")
+Traceback (most recent call last):
+  File "/home/marc/.conda/envs/mlflow-cc3b718026d40601007d2fd365c8081ca29c0d0d/lib/python3.8/site-packages/wandb/apis/public.py", line 3941, in _load
+    response = self.client.execute(
+  File "/home/marc/.conda/envs/mlflow-cc3b718026d40601007d2fd365c8081ca29c0d0d/lib/python3.8/site-packages/wandb/sdk/lib/retry.py", line 159, in wrapped_fn
+    return retrier(*args, **kargs)
+  File "/home/marc/.conda/envs/mlflow-cc3b718026d40601007d2fd365c8081ca29c0d0d/lib/python3.8/site-packages/wandb/sdk/lib/retry.py", line 102, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/home/marc/.conda/envs/mlflow-cc3b718026d40601007d2fd365c8081ca29c0d0d/lib/python3.8/site-packages/wandb/apis/public.py", line 205, in execute
+    return self._client.execute(*args, **kwargs)
+  File "/home/marc/.conda/envs/mlflow-cc3b718026d40601007d2fd365c8081ca29c0d0d/lib/python3.8/site-packages/wandb/vendor/gql-0.2.0/gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/home/marc/.conda/envs/mlflow-cc3b718026d40601007d2fd365c8081ca29c0d0d/lib/python3.8/site-packages/wandb/vendor/gql-0.2.0/gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/home/marc/.conda/envs/mlflow-cc3b718026d40601007d2fd365c8081ca29c0d0d/lib/python3.8/site-packages/wandb/vendor/gql-0.2.0/gql/transport/requests.py", line 39, in execute
+    request.raise_for_status()
+  File "/home/marc/.conda/envs/mlflow-cc3b718026d40601007d2fd365c8081ca29c0d0d/lib/python3.8/site-packages/requests/models.py", line 960, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://api.wandb.ai/graphql
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "/home/marc/.conda/envs/mlflow-cc3b718026d40601007d2fd365c8081ca29c0d0d/lib/python3.8/site-packages/wandb/apis/normalize.py", line 24, in wrapper
+    return func(*args, **kwargs)
+  File "/home/marc/.conda/envs/mlflow-cc3b718026d40601007d2fd365c8081ca29c0d0d/lib/python3.8/site-packages/wandb/apis/public.py", line 761, in artifact
+    artifact = Artifact(self.client, entity, project, artifact_name)
+  File "/home/marc/.conda/envs/mlflow-cc3b718026d40601007d2fd365c8081ca29c0d0d/lib/python3.8/site-packages/wandb/apis/public.py", line 3443, in __init__
+    self._load()
+  File "/home/marc/.conda/envs/mlflow-cc3b718026d40601007d2fd365c8081ca29c0d0d/lib/python3.8/site-packages/wandb/apis/public.py", line 3953, in _load
+    raise ValueError(
+ValueError: Attempted to fetch artifact without alias (e.g. "<artifact_name>:v3" or "<artifact_name>:latest")
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "run.py", line 83, in <module>
+    go(args)
+  File "run.py", line 29, in go
+    model_export_path = run.use_artifact(args.model_export).download()
+  File "/home/marc/.conda/envs/mlflow-cc3b718026d40601007d2fd365c8081ca29c0d0d/lib/python3.8/site-packages/wandb/sdk/wandb_run.py", line 2414, in use_artifact
+    artifact = public_api.artifact(type=type, name=name)
+  File "/home/marc/.conda/envs/mlflow-cc3b718026d40601007d2fd365c8081ca29c0d0d/lib/python3.8/site-packages/wandb/apis/normalize.py", line 62, in wrapper
+    six.reraise(CommError, CommError(message, err), sys.exc_info()[2])
+  File "/nix/store/nv3ryyaknp2g0qyjkmg4h83flqm0c0k3-python3.8-six-1.15.0/lib/python3.8/site-packages/six.py", line 702, in reraise
+    raise value.with_traceback(tb)
+  File "/home/marc/.conda/envs/mlflow-cc3b718026d40601007d2fd365c8081ca29c0d0d/lib/python3.8/site-packages/wandb/apis/normalize.py", line 24, in wrapper
+    return func(*args, **kwargs)
+  File "/home/marc/.conda/envs/mlflow-cc3b718026d40601007d2fd365c8081ca29c0d0d/lib/python3.8/site-packages/wandb/apis/public.py", line 761, in artifact
+    artifact = Artifact(self.client, entity, project, artifact_name)
+  File "/home/marc/.conda/envs/mlflow-cc3b718026d40601007d2fd365c8081ca29c0d0d/lib/python3.8/site-packages/wandb/apis/public.py", line 3443, in __init__
+    self._load()
+  File "/home/marc/.conda/envs/mlflow-cc3b718026d40601007d2fd365c8081ca29c0d0d/lib/python3.8/site-packages/wandb/apis/public.py", line 3953, in _load
+    raise ValueError(
+wandb.errors.CommError: Attempted to fetch artifact without alias (e.g. "<artifact_name>:v3" or "<artifact_name>:latest")

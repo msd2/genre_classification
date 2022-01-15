@@ -1,0 +1,31 @@
+{
+    "os": "Linux-5.10.79-x86_64-with-glibc2.32",
+    "python": "3.9.9",
+    "heartbeatAt": "2022-01-15T14:17:41.050716",
+    "startedAt": "2022-01-15T14:17:40.208803",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "-s",
+        "-vv",
+        ".",
+        "--reference_artifact",
+        "exercise_14/preprocessed_data.csv:latest",
+        "--sample_artifact",
+        "preprocessed_data.csv:latest",
+        "--ks_alpha",
+        "0.05"
+    ],
+    "state": "running",
+    "program": "/home/marc/.conda/envs/mlflow-acbfa4ee4aa9be3158264a605e4861dd8a78622b/bin/pytest",
+    "git": {
+        "remote": "git@github.com:msd2/genre_classification.git",
+        "commit": "917c58e6e45921c6337a8652131df1bc6ba2cf59"
+    },
+    "email": "marc.dunford@gmail.com",
+    "root": "/home/marc/development/python/udacity_course/genre_classification",
+    "host": "nixos",
+    "username": "marc",
+    "executable": "/home/marc/.conda/envs/mlflow-acbfa4ee4aa9be3158264a605e4861dd8a78622b/bin/python"
+}

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/marc/development/python/udacity_course/genre_classification/starter/mlruns/0/1a6be59061b94d72955ef995f61bdf77/artifacts
+end_time: 1642257437815
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 1a6be59061b94d72955ef995f61bdf77
+run_uuid: 1a6be59061b94d72955ef995f61bdf77
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1642257424773
+status: 3
+tags: []
+user_id: marc
